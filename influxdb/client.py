@@ -127,7 +127,7 @@ class InfluxDBClient(object):
             self._path)
 
         self._headers = {
-            'Content-Type': 'application/json',
+            'Content-Type': 'application/x-msgpack',
             'Accept': 'text/plain'
         }
 
